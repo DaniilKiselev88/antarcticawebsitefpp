@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <img src="antarctica.jpg" alt="Ледяной пейзаж Антарктиды" width="800" height="600">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Антарктида — научный портал</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Фоновое изображение -->
+  <div class="background-image" aria-hidden="true"></div>
+  <!-- Затемнение поверх фона -->
+  <div class="background-overlay" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="snow" id="snow" aria-hidden="true"></div>
+
+    <main class="content">
+      <h1 tabindex="0">Антарктида</h1>
+      <p class="intro" tabindex="0">
+        Самый южный континент Земли, покрытый многокилометровыми льдами.
+        Здесь царит вечная зима, а жизнь приспособилась к экстремальным условиям.
+      </p>
+
+      <div class="buttons-container" id="buttonsContainer" role="group" aria-label="Темы об Антарктиде"></div>
+
+      <section class="article-display" id="articleDisplay" aria-live="polite">
+        <article id="articleContent"></article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <small>© 2026 Антарктический исследовательский центр</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
