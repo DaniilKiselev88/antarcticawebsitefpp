@@ -1,2 +1,2 @@
-# antarcticawebsitefpp
-Antactica
+# Антарктида — научный портал
+Веб-сайт о самом южном континенте. Используются HTML, CSS, JavaScript.
